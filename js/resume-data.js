@@ -12,13 +12,14 @@ const RESUME_DATA = {
     email: "musthaqueali42@gmail.com",
     phone: "+91 7012318459",
     github_url: "https://github.com/musthaqueali",
+    linkedin_url: "https://www.linkedin.com/in/musthaqueali/",
     whatsapp_url: "https://wa.me/917012318459?text=Hi%20Musthaque,%20reaching%20out%20via%20your%20portfolio",
     education_highlight: "NIT Calicut • B.Tech Mechanical Engineering (2022–2026) • 7.24 CGPA",
     cgpa_highlight: "7.24 CGPA • B.Tech Mechanical Engineering (NIT Calicut)",
     sports_highlight: "Inter-NIT Football Champion (NIT Jamshedpur) & All India Inter-University 2025",
     leadership_highlight: "Marketing Head, NITC Super League • NCC B-Certificate Holder",
     status: "Mechanical Integrity Engineer (Reliability Data Analyst) @ Pinnacle Reliability",
-    edition_no: "VOL. VI — NO. 26",
+    edition_no: "VOL. VII — NO. 26",
     dispatch_date: "AUGUST 2026 DISPATCH"
   },
 
@@ -26,7 +27,7 @@ const RESUME_DATA = {
     { value: "Pinnacle", label: "Mechanical Integrity Engineer (Reliability Data Analyst)" },
     { value: "Chevron RBI", label: "Executing Risk-Based Inspection & Damage Mechanism Analysis" },
     { value: "7.24 CGPA", label: "NIT Calicut • B.Tech Mechanical Engineering (2022–2026)" },
-    { value: "GitHub", label: "github.com/musthaqueali • Active Engineering Repositories" }
+    { value: "LinkedIn", label: "linkedin.com/in/musthaqueali • Professional Network" }
   ],
 
   projects: [
@@ -46,6 +47,7 @@ const RESUME_DATA = {
         { label: "Location", val: "Hyderabad" }
       ],
       github: "https://github.com/musthaqueali",
+      linkedin: "https://www.linkedin.com/in/musthaqueali/",
       highlights: [
         "Currently executing a Risk-Based Inspection (RBI) project for Chevron, analyzing and determining various damage mechanisms to ensure asset integrity.",
         "Assigning Condition Monitoring Locations (CMLs) and Piping Condition Monitoring Locations (PCMLs) within complex isometric drawings to track mechanical degradation.",
@@ -68,6 +70,7 @@ const RESUME_DATA = {
         { label: "Store Coverage", val: "14 Outlets" }
       ],
       github: "https://github.com/musthaqueali",
+      linkedin: "https://www.linkedin.com/in/musthaqueali/",
       highlights: [
         "Analyzed Nesto retail sales data using SQL and Advanced Excel; performed data cleaning and generated insights on sales, products, suppliers, and store performance.",
         "Developed interactive dashboards and KPI reports using Power BI and Tableau to visualize trends and support executive decision-making.",
@@ -91,6 +94,7 @@ const RESUME_DATA = {
         { label: "Stockout Red.", val: "-18.5%" }
       ],
       github: "https://github.com/musthaqueali",
+      linkedin: "https://www.linkedin.com/in/musthaqueali/",
       highlights: [
         "Built an interactive Power BI dashboard to monitor supply chain KPIs and key business metrics.",
         "Created visual reports enabling operational analysis and performance benchmarking across the supply chain.",
@@ -113,6 +117,7 @@ const RESUME_DATA = {
         { label: "Analysis Tool", val: "Adv. Excel" }
       ],
       github: "https://github.com/musthaqueali",
+      linkedin: "https://www.linkedin.com/in/musthaqueali/",
       highlights: [
         "Analyzed customer preferences and product demand trends for Boscage Leather Goods to support product selection and boost online revenue.",
         "Gained practical exposure to e-commerce operations, customer behavior analytics, and business reporting.",
@@ -135,6 +140,7 @@ const RESUME_DATA = {
         { label: "Phase Matrix", val: "Organic PCM" }
       ],
       github: "https://github.com/musthaqueali",
+      linkedin: "https://www.linkedin.com/in/musthaqueali/",
       highlights: [
         "Designed and simulated a MOSFET thermal cooling model in ANSYS SpaceClaim and Fluent as a final-year engineering project.",
         "Evaluated multiple PCM configurations to optimize heat dissipation and improve thermal performance under real-world operating conditions.",
@@ -157,6 +163,7 @@ const RESUME_DATA = {
         { label: "Pipeline", val: "Sklearn" }
       ],
       github: "https://github.com/musthaqueali",
+      linkedin: "https://www.linkedin.com/in/musthaqueali/",
       highlights: [
         "Constructed modular Scikit-Learn Pipeline and ColumnTransformer preventing data leakage across training and test splits.",
         "Addressed severe class imbalance (82:18) using Synthetic Minority Over-sampling Technique (SMOTE).",
@@ -179,6 +186,7 @@ const RESUME_DATA = {
         { label: "Auth", val: "JWT & Security" }
       ],
       github: "https://github.com/musthaqueali",
+      linkedin: "https://www.linkedin.com/in/musthaqueali/",
       highlights: [
         "Built responsive frontend with React, Tailwind CSS, and optimized asset loading.",
         "Engineered RESTful backend APIs with Express and MongoDB for catalog and orders.",
