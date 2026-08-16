@@ -13,19 +13,19 @@ const RESUME_DATA = {
     phone: "+91 7012318459",
     github_url: "https://github.com/musthaqueali",
     whatsapp_url: "https://wa.me/917012318459?text=Hi%20Musthaque,%20reaching%20out%20via%20your%20portfolio",
-    education_highlight: "NIT Calicut • B.Tech Mechanical Engineering (2022–2026)",
-    merit_highlight: "99.17% Higher Secondary (12th Grade) • Full A+ SSLC",
+    education_highlight: "NIT Calicut • B.Tech Mechanical Engineering (2022–2026) • 7.24 CGPA",
+    cgpa_highlight: "7.24 CGPA • B.Tech Mechanical Engineering (NIT Calicut)",
     sports_highlight: "Inter-NIT Football Champion (NIT Jamshedpur) & All India Inter-University 2025",
     leadership_highlight: "Marketing Head, NITC Super League • NCC B-Certificate Holder",
     status: "Mechanical Integrity Engineer (Reliability Data Analyst) @ Pinnacle Reliability",
-    edition_no: "VOL. V — NO. 26",
+    edition_no: "VOL. VI — NO. 26",
     dispatch_date: "AUGUST 2026 DISPATCH"
   },
 
   metrics: [
     { value: "Pinnacle", label: "Mechanical Integrity Engineer (Reliability Data Analyst)" },
     { value: "Chevron RBI", label: "Executing Risk-Based Inspection & Damage Mechanism Analysis" },
-    { value: "NIT Calicut", label: "B.Tech Mechanical Engineering Graduate (2022–2026)" },
+    { value: "7.24 CGPA", label: "NIT Calicut • B.Tech Mechanical Engineering (2022–2026)" },
     { value: "GitHub", label: "github.com/musthaqueali • Active Engineering Repositories" }
   ],
 
