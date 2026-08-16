@@ -19,7 +19,7 @@ const RESUME_DATA = {
     sports_highlight: "Inter-NIT Football Champion (NIT Jamshedpur) & All India Inter-University 2025",
     leadership_highlight: "Marketing Head, NITC Super League • NCC B-Certificate Holder",
     status: "Mechanical Integrity Engineer (Reliability Data Analyst) @ Pinnacle Reliability",
-    edition_no: "VOL. VII — NO. 26",
+    edition_no: "VOL. VIII — NO. 26",
     dispatch_date: "AUGUST 2026 DISPATCH"
   },
 
@@ -195,6 +195,69 @@ const RESUME_DATA = {
     }
   ],
 
+  classifieds: [
+    {
+      category: "Supervised & Ensemble ML",
+      skills: [
+        { name: "Regression: Linear, Poly, Ridge, Lasso", badge: "Core Mastery" },
+        { name: "Classification: Logistic, KNN, SVM, Naive", badge: "Advanced" },
+        { name: "Decision Trees & Random Forest", badge: "Specialist" },
+        { name: "Boosting: XGBoost, AdaBoost, GBM", badge: "Specialist" },
+        { name: "Stacking & Voting Ensemble Regressors", badge: "Advanced" }
+      ]
+    },
+    {
+      category: "Feature Engineering & Pipelines",
+      skills: [
+        { name: "Missing Imputation (KNN, Iterative MICE)", badge: "Mastery" },
+        { name: "Encoding: One-Hot, Ordinal, Target", badge: "Advanced" },
+        { name: "Scaling: StandardScaler, RobustScaler", badge: "Mastery" },
+        { name: "Power Transforms (Box-Cox, Yeo-Johnson)", badge: "Specialist" },
+        { name: "Scikit-Learn ColumnTransformer", badge: "Production Grade" }
+      ]
+    },
+    {
+      category: "Unsupervised ML & Clustering",
+      skills: [
+        { name: "Principal Component Analysis (PCA)", badge: "Advanced" },
+        { name: "K-Means++ (Elbow & Silhouette)", badge: "Specialist" },
+        { name: "Hierarchical Clustering & Dendrograms", badge: "Advanced" },
+        { name: "DBSCAN Density-Based Clustering", badge: "Proficient" },
+        { name: "Anomaly Detection (Isolation Forest)", badge: "Applied" }
+      ]
+    },
+    {
+      category: "Mechanical Integrity & RBI",
+      skills: [
+        { name: "Risk-Based Inspection (RBI) Methodology", badge: "Active Project" },
+        { name: "Damage Mechanism Analysis (Chevron)", badge: "Specialist" },
+        { name: "CML & PCML Monitoring Assignment", badge: "Advanced" },
+        { name: "Isometric Drawings & Piping", badge: "Core Strength" },
+        { name: "Asset Integrity & Degradation Tracking", badge: "Expert" }
+      ]
+    },
+    {
+      category: "Databases & Visual Analytics",
+      skills: [
+        { name: "Python (NumPy, Pandas, Seaborn, Scipy)", badge: "Core Stack" },
+        { name: "SQL (SELECT, JOINs, CTEs, Window)", badge: "Expert" },
+        { name: "Power BI (DAX Modeling & Reports)", badge: "Advanced" },
+        { name: "Tableau Visual Analytics", badge: "Proficient" },
+        { name: "Advanced Excel (XLOOKUP, Power Query)", badge: "Mastery" }
+      ]
+    },
+    {
+      category: "Simulation, CAD & Software",
+      skills: [
+        { name: "ANSYS Fluent (CFD Simulation)", badge: "Proficient" },
+        { name: "ANSYS SpaceClaim 3D CAD & SolidWorks", badge: "Proficient" },
+        { name: "React.js, Tailwind CSS & JavaScript", badge: "Proficient" },
+        { name: "Node.js, Express & REST APIs", badge: "Applied" },
+        { name: "Git & GitHub Version Control", badge: "Expert" }
+      ]
+    }
+  ],
+
   experience: [
     {
       company: "Pinnacle Reliability India Private Limited",
@@ -243,60 +306,6 @@ const RESUME_DATA = {
       bullets: [
         "Maintained inventory, logistics, and operational records using Excel for accurate business documentation.",
         "Assisted in data entry, invoice preparation, data validation, and shipment tracking to support reporting and operational analysis."
-      ]
-    }
-  ],
-
-  classifieds: [
-    {
-      category: "Mechanical Integrity & Reliability Engineering",
-      skills: [
-        { name: "Risk-Based Inspection (RBI) Methodology", badge: "Active Project" },
-        { name: "Damage Mechanism Analysis (Chevron Portfolio)", badge: "Specialist" },
-        { name: "CML & PCML Condition Monitoring Assignment", badge: "Advanced" },
-        { name: "Isometric Drawings & Piping Schematics", badge: "Core Strength" },
-        { name: "Asset Integrity & Degradation Tracking", badge: "Expert" }
-      ]
-    },
-    {
-      category: "Machine Learning & Data Science",
-      skills: [
-        { name: "Python (NumPy, Pandas, Matplotlib, Seaborn)", badge: "Core Mastery" },
-        { name: "Supervised ML (Regression, Decision Trees, XGBoost)", badge: "Advanced" },
-        { name: "Feature Engineering & Preprocessing Pipelines", badge: "Specialist" },
-        { name: "Dimensionality Reduction (PCA, t-SNE) & Clustering", badge: "Proficient" },
-        { name: "Model Evaluation, Cross-Validation & Tuning", badge: "Advanced" },
-        { name: "Exploratory Data Analysis (EDA) & Statistics", badge: "Core Strength" }
-      ]
-    },
-    {
-      category: "SQL, Relational Databases & BI",
-      skills: [
-        { name: "SQL (SELECT, JOINs, CTEs, Window Functions)", badge: "Expert" },
-        { name: "Power BI (DAX Modeling & Interactive Reports)", badge: "Advanced" },
-        { name: "Tableau Visual Storytelling & Dashboards", badge: "Proficient" },
-        { name: "Advanced Excel (XLOOKUP, Power Query, Pivots)", badge: "Mastery" },
-        { name: "Data Transformation & Quality Validation", badge: "Core Strength" }
-      ]
-    },
-    {
-      category: "Engineering Simulation & Core Foundation",
-      skills: [
-        { name: "ANSYS Fluent (CFD Simulation)", badge: "Proficient" },
-        { name: "ANSYS SpaceClaim & SolidWorks 3D CAD", badge: "Proficient" },
-        { name: "Thermal & Fluid Mechanics Modeling", badge: "Applied" },
-        { name: "Applied Mathematical Optimization", badge: "Core Strength" },
-        { name: "Technical Reporting & Executive Documentation", badge: "Expert" }
-      ]
-    },
-    {
-      category: "Software Development & Tools",
-      skills: [
-        { name: "React.js & Tailwind CSS", badge: "Proficient" },
-        { name: "Node.js, Express & REST APIs", badge: "Applied" },
-        { name: "JavaScript & TypeScript", badge: "Proficient" },
-        { name: "MongoDB & PostgreSQL", badge: "Proficient" },
-        { name: "Git & GitHub Version Control", badge: "Expert" }
       ]
     }
   ],
