@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="100%" height="100%">
+  <defs>
+    <!-- Halftone / Engraving Line Pattern -->
+    <pattern id="engraving-lines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="2" x2="4" y2="2" stroke="#1d1d1b" stroke-width="0.75" opacity="0.35"/>
+    </pattern>
+    <linearGradient id="avatar-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#cdc6be" />
+      <stop offset="100%" stop-color="#b8b0a6" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Matte -->
+  <rect width="400" height="500" fill="url(#avatar-grad)"/>
+  <rect width="400" height="500" fill="url(#engraving-lines)"/>
+
+  <!-- Vintage Photo Frame Border -->
+  <rect x="10" y="10" width="380" height="480" fill="none" stroke="#1d1d1b" stroke-width="2"/>
+  <rect x="14" y="14" width="372" height="472" fill="none" stroke="#1d1d1b" stroke-width="0.5" stroke-dasharray="3 3"/>
+
+  <!-- Stylized Editorial Portrait Silhouette & Contours -->
+  <!-- Shoulders & Coat -->
+  <path d="M 60 500 C 60 410, 110 370, 160 360 L 200 420 L 240 360 C 290 370, 340 410, 340 500 Z" fill="#1d1d1b"/>
+  <!-- Collar & Shirt -->
+  <polygon points="170,360 200,430 230,360 215,350 185,350" fill="#e2dedb" stroke="#1d1d1b" stroke-width="1.5"/>
+  <!-- Tie -->
+  <polygon points="195,385 205,385 208,470 200,480 192,470" fill="#c03f13"/>
+
+  <!-- Head / Neck -->
+  <path d="M 180 340 L 180 365 L 220 365 L 220 340 Z" fill="#d8d3cb" stroke="#1d1d1b" stroke-width="1"/>
+  <!-- Face Shape -->
+  <path d="M 140 220 C 140 160, 260 160, 260 220 C 260 280, 235 340, 200 340 C 165 340, 140 280, 140 220 Z" fill="#dfd9d1" stroke="#1d1d1b" stroke-width="2"/>
+
+  <!-- Hair & Beard (Matching Resume Photo) -->
+  <!-- Hair top -->
+  <path d="M 136 210 C 135 150, 170 120, 200 120 C 235 120, 265 150, 264 210 C 255 170, 230 150, 200 150 C 170 150, 145 170, 136 210 Z" fill="#1d1d1b"/>
+  <!-- Beard & Mustache Contours -->
+  <path d="M 160 270 Q 200 275 240 270 Q 200 290 160 270 Z" fill="#1d1d1b"/>
+  <path d="M 155 260 C 150 290, 175 335, 200 338 C 225 335, 250 290, 245 260 C 240 300, 225 325, 200 325 C 175 325, 160 300, 155 260 Z" fill="#1d1d1b"/>
+
+  <!-- Eyes & Eyebrows -->
+  <!-- Left Brow & Eye -->
+  <path d="M 160 205 Q 178 198 190 205" fill="none" stroke="#1d1d1b" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="175" cy="216" r="3.5" fill="#1d1d1b"/>
+  <!-- Right Brow & Eye -->
+  <path d="M 210 205 Q 222 198 240 205" fill="none" stroke="#1d1d1b" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="225" cy="216" r="3.5" fill="#1d1d1b"/>
+
+  <!-- Nose & Smile Expression -->
+  <path d="M 200 215 L 196 242 Q 200 246 205 242" fill="none" stroke="#1d1d1b" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 185 285 Q 200 295 215 285" fill="none" stroke="#1d1d1b" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Editorial Watermark Overlay -->
+  <text x="200" y="475" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="3">MUSTHAQUE ALI • NIT CALICUT</text>
+</svg>

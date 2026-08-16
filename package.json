@@ -1,0 +1,22 @@
+{
+  "name": "musthaque-ali-portfolio",
+  "version": "1.0.0",
+  "description": "Musthaque Ali — Personal Data Analyst & Business Intelligence Broadsheet Portfolio",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx -y serve . -l 3000",
+    "dev": "npx -y serve . -l 3000"
+  },
+  "keywords": [
+    "portfolio",
+    "data-analyst",
+    "nit-calicut",
+    "miranda-design",
+    "business-intelligence",
+    "sql",
+    "power-bi",
+    "tableau"
+  ],
+  "author": "Musthaque Ali",
+  "license": "MIT"
+}
