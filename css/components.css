@@ -15,11 +15,12 @@
   padding: 6px 14px;
   border-radius: 2px;
   min-width: 140px;
-  max-width: 175px;
-  height: 54px;
+  max-width: 180px;
+  height: 56px;
   margin-bottom: 0.65rem;
   box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.12);
   transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+  overflow: hidden;
 }
 
 .company-logo-badge:hover {
@@ -28,18 +29,25 @@
 }
 
 .company-logo-badge.badge-codeme {
-  min-width: 160px;
-  height: 60px;
+  min-width: 165px;
+  height: 62px;
   padding: 4px 10px;
 }
 
 .company-logo-badge.badge-codeme .company-logo-img {
   max-height: 100%;
-  transform: scale(1.15);
+  transform: scale(1.22);
+}
+
+.company-logo-badge.badge-boscage {
+  min-width: 165px;
+  height: 62px;
+  padding: 4px 10px;
 }
 
 .company-logo-badge.badge-boscage .company-logo-img {
-  max-height: 90%;
+  max-height: 100%;
+  transform: scale(1.28);
 }
 
 .company-logo-img {
@@ -58,18 +66,28 @@
   border: 1px solid var(--border-ink);
   padding: 4px 10px;
   border-radius: 2px;
-  height: 44px;
-  max-width: 160px;
-  box-shadow: 1px 1px 0px rgba(0,0,0,0.1);
+  height: 46px;
+  max-width: 170px;
+  box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
 }
 
 .project-logo-badge.badge-codeme {
-  height: 48px;
+  height: 50px;
   padding: 2px 8px;
 }
 
 .project-logo-badge.badge-codeme img {
-  transform: scale(1.15);
+  transform: scale(1.22);
+}
+
+.project-logo-badge.badge-boscage {
+  height: 50px;
+  padding: 2px 8px;
+}
+
+.project-logo-badge.badge-boscage img {
+  transform: scale(1.28);
 }
 
 /* ==========================================================================
